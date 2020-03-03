@@ -9,4 +9,4 @@ android:
       - extra-android-m2repository
 before_script: 
       - cd UEE_Banking_App_Android
-      - find . -type f -exec dos2unix {} \;
+      - ls -l gradlew
