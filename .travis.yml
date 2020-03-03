@@ -9,4 +9,4 @@ android:
       - extra-android-m2repository
 before_script: 
       - cd UEE_Banking_App_Android
-install: gradle wrapper --gradle-version 4.2
+dist: xenial
