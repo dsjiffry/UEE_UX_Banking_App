@@ -15,5 +15,4 @@ before_install:
   - export GRADLE_HOME=$PWD/gradle-5.5.1
   - export PATH=$GRADLE_HOME/bin:$PATH
   - gradle -v
-script:
-      - gradle
+
