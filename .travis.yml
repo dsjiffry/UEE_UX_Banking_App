@@ -7,4 +7,5 @@ android:
       - build-tools-26.0.2
 before_script: 
       - cd UEE_Banking_App_Android
-      - find -type f -iname "*.sh" -exec chmod +x {} \;
+before_install:
+      - chmod +x gradlew
