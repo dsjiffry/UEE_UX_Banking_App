@@ -7,5 +7,4 @@ android:
       - build-tools-26.0.2
 before_script: 
       - cd UEE_Banking_App_Android
-script:
- - chmod +x ./gradlew build connectedCheck
+      - find -type f -iname "*.sh" -exec chmod +x {} \;
