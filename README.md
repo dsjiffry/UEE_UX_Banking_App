@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/dsjiffry/UEE_UX_Banking_App.svg?branch=master)](https://travis-ci.com/dsjiffry/UEE_UX_Banking_App)
+
 # User Experience Engineering project (Y03)  
 
   ## HNB Banking App  
