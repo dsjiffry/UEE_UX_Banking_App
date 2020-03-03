@@ -9,3 +9,4 @@ android:
       - extra-android-m2repository
 before_script: 
       - cd UEE_Banking_App_Android
+      - chmod +x ./gradlew
