@@ -9,10 +9,11 @@ android:
       - extra-android-m2repository
 before_script: 
       - cd UEE_Banking_App_Android
+before_install:
+  - wget https://services.gradle.org/distributions/gradle-5.2.1-bin.zip
+  - unzip -qq gradle-5.2.1-bin.zip
+  - export GRADLE_HOME=$PWD/gradle-5.2.1
+  - export PATH=$GRADLE_HOME/bin:$PATH
+  - gradle -v
 script:
-      - wget https://services.gradle.org/distributions/gradle-5.2.1-bin.zip -P /tmp
-      - unzip -d /opt/gradle /tmp/gradle-*.zip
-      - vi /etc/profile.d/gradle.sh
-      - export GRADLE_HOME=/opt/gradle/gradle-5.2.1
-      - export PATH=${GRADLE_HOME}/bin:${PATH}
       - gradle
