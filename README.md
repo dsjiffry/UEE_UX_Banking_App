@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/dsjiffry/UEE_UX_Banking_App.svg?branch=master)](https://travis-ci.com/dsjiffry/UEE_UX_Banking_App)
 [![Android CI](https://github.com/dsjiffry/UEE_UX_Banking_App/workflows/Android%20CI/badge.svg?branch=master)](https://github.com/dsjiffry/UEE_UX_Banking_App/actions?query=workflow%3A%22Android+CI%22)
 
 # User Experience Engineering project (Y03)  
